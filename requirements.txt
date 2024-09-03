@@ -1,0 +1,9 @@
+matplotlib==3.8.2
+numpy==2.1.1
+pandas==2.2.2
+plotly==5.18.0
+Requests==2.32.3
+seaborn==0.13.2
+streamlit==1.31.0
+streamlit_lottie==0.0.5
+~treamlit==1.31.0
