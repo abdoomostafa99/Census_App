@@ -9,8 +9,8 @@ import random
 # import json
 
 
-# st.set_page_config(layout = 'wide' , page_title = 'Insights Page',page_icon = '📊')
-# df = pd.read_csv('Census_cleaned.csv')
+st.set_page_config(layout = 'wide' , page_title = 'Insights Page',page_icon = '📊')
+df = pd.read_csv('Census_cleaned.csv')
 
 st.title('Insights Analysis')
 # def load_lottieurl(url:str):
