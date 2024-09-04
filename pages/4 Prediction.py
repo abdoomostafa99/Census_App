@@ -4,6 +4,14 @@ import pandas as pd
 # import plotly.express as px
 import pickle
 from sklearn.ensemble import RandomForestClassifier
+# from sklearn.preprocessing import RobustScaler
+from sklearn.preprocessing import OrdinalEncoder
+from category_encoders import BinaryEncoder
+# from sklearn.preprocessing import LabelEncoder
+from sklearn.pipeline import Pipeline
+# from sklearn.compose import ColumnTransformer
+# from sklearn.model_selection import GridSearchCV
+# from sklearn.model_selection import cross_val_score
 
 st.set_page_config(layout = 'wide' , page_title = 'Home Page')
 df = pd.read_csv('Census_cleaned_ml.csv')
