@@ -5,7 +5,7 @@ import plotly.express as px
 # import seaborn as sns
 import random
 import requests
-from streamlit_lottie import st_lottie
+# from streamlit_lottie import st_lottie
 import json
 
 
