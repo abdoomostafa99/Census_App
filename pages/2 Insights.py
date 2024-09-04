@@ -2,27 +2,14 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-# import seaborn as sns
 import random
-# import requests
-# from streamlit_lottie import st_lottie
-# import json
-
 
 st.set_page_config(layout = 'wide' , page_title = 'Insights Page',page_icon = '📊')
 df = pd.read_csv('Census_cleaned.csv')
 
 st.title('Insights Analysis')
-# def load_lottieurl(url:str):
-#     r = requests.get(url)
-#     if r.status_code !=200:
-#         return None
-#     return r.json()
-# animation = load_lottieurl('https://lottie.host/3124bd5f-7ac0-4dde-8b4b-173b2966da66/CATdYF6lH0.json')
-# st_lottie(animation,speed = .99,quality = 'high',height = 400,width = 600)
+
 c1,c33,c2 = st.columns([4,1,4])
-
-
 with c1 :
     st.markdown(
     """
