@@ -2,24 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
-import seaborn as sns
-import random
-import requests
-from streamlit_lottie import st_lottie
-import json
 
 st.set_page_config(layout = 'wide' , page_title = 'Insights Page',page_icon = '📊')
 df = pd.read_csv('Census_cleaned.csv')
 
 st.title('Explore Analysis')
-def load_lottieurl(url:str):
-    r = requests.get(url)
-    if r.status_code !=200:
-        return None
-    return r.json()
-animation = load_lottieurl('https://lottie.host/a5bc462f-f206-467d-a988-5a3ea17e1d70/7gYeI6NANK.json')
-st_lottie(animation , speed = 2.5 ,quality = 'high',height = 400 , width = 600)
-
 
 interest = st.selectbox('Select a column to filter by:',
              ['age' , 'education_num' ,'hours_per_week'])
