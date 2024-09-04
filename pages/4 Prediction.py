@@ -3,6 +3,7 @@ import pandas as pd
 # import numpy as np
 # import plotly.express as px
 import pickle
+from sklearn.ensemble import RandomForestClassifier
 
 st.set_page_config(layout = 'wide' , page_title = 'Home Page')
 df = pd.read_csv('Census_cleaned_ml.csv')
