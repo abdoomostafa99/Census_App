@@ -3,10 +3,10 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import random
-from plotly.offline import iplot , plot
-from plotly.subplots import make_subplots
-import matplotlib.pyplot as plt
-import seaborn as sns
+# from plotly.offline import iplot , plot
+# from plotly.subplots import make_subplots
+# import matplotlib.pyplot as plt
+# import seaborn as sns
 
 st.set_page_config(layout = 'wide' , page_title = 'Home Page',page_icon = '🏠')
 df = pd.read_csv('Census_cleaned.csv')
