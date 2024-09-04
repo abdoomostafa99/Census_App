@@ -1,12 +1,7 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-import plotly.express as px
-import random
-from plotly.offline import iplot , plot
-from plotly.subplots import make_subplots
-import matplotlib.pyplot as plt
-import seaborn as sns
+# import numpy as np
+# import plotly.express as px
 import pickle
 
 st.set_page_config(layout = 'wide' , page_title = 'Home Page')
